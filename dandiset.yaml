@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 187456710
-  numberOfFiles: 265
-  numberOfSubjects: 19
+  numberOfBytes: 203128780
+  numberOfFiles: 287
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -23,9 +23,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2024)
-  Excitation and polarization of isolated neurons by high-frequency sine waves in
-  the context of temporal interference stimulation (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/001271/draft
+  Blocking sodium channels with tetrodotoxin could abolish action potential formation
+  during intense sinewave stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001271/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -57,8 +56,15 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2024-12-04T14:34:50.556074+00:00'
-description: 'Excitation and polarization of isolated neurons by high-frequency sine
-  waves in the context of temporal interference stimulation
+description: 'In this set of data, we examined whether blocking sodium channels with
+  tetrodotoxin could abolish action potential formation during intense sinewave stimulation.
+  This was employed to investigate whether sustained depolarization could stem from
+  overactivation of voltage-gated Na+ channels during repeated cycles of membrane
+  depolarization and hyperpolarization. Hyperpolarizations were thought to counteract
+  channel inactivation caused by depolarization, thereby allowing the channels to
+  reactivate multiple times. Supporting this idea, 1 µM tetrodotoxin application not
+  only suppressed action potentials, as expected but also entirely prevented the sustained
+  depolarization.
 
   07 30 2024, 07 31 2024, 08 01 2024
 
@@ -71,10 +77,15 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001271/versions/draft/assets/
-name: Excitation and polarization of isolated neurons by high-frequency sine waves
-  in the context of temporal interference stimulation
+name: Blocking sodium channels with tetrodotoxin could abolish action potential formation
+  during intense sinewave stimulation
 protocol: []
-relatedResource: []
+relatedResource:
+- name: Excitation and polarization of isolated neurons by high-frequency sine waves
+    in the context of temporal interference stimulation
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
