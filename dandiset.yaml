@@ -7,7 +7,6 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: ''
 assetsSummary:
   approach: []
   dataStandard:
@@ -36,13 +35,6 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: 5R21EY034803
-  identifier: ''
-  includeInCitation: false
-  name: National Institutes of Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - identifier: 0000-0003-0699-5582
   includeInCitation: true
   name: Kim, Vitalii
@@ -57,7 +49,15 @@ contributor:
   roleName:
   - dcite:ProjectLeader
   schemaKey: Person
+- awardNumber: 5R21EY034803
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-12-04T14:34:50.556074+00:00'
+datePublished: '2025-07-01T16:24:57.039956+00:00'
 description: "This dataset explores whether blocking sodium channels with tetrodotoxin
   (TTX) can prevent action potential formation during intense sinewave stimulation.
   Applying 1 µM TTX suppressed action potentials, as expected, and completely prevented
@@ -66,24 +66,35 @@ description: "This dataset explores whether blocking sodium channels with tetrod
 ethicsApproval: []
 id: DANDI:001271/draft
 identifier: DANDI:001271
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001271/versions/draft/assets/
 name: Tetrodotoxin Blockade of Sodium Channels Abolishes Action Potential Formation
   During Intense Sinewave Stimulation
-protocol: []
+publishedBy:
+  endDate: '2025-07-01T16:24:57.039956+00:00'
+  id: urn:uuid:374f26b7-28ad-4301-8897-5180a4315cdc
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-01T16:24:57.039956+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:cce03e2a-f08e-43a1-9e94-783a01f27d64
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
-- name: Excitation and polarization of isolated neurons by high-frequency sine waves
+- identifier: doi.org/10.1016/j.xcrp.2025.102660
+  name: Excitation and polarization of isolated neurons by high-frequency sine waves
     in the context of temporal interference stimulation
   relation: dcite:IsPublishedIn
   resourceType: dcite:JournalArticle
   schemaKey: Resource
+  url: https://doi.org/10.1016/j.xcrp.2025.102660
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001271/draft
 version: draft
 wasGeneratedBy:
