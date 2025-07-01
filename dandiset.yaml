@@ -25,7 +25,8 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2025)
   Tetrodotoxin Blockade of Sodium Channels Abolishes Action Potential Formation During
-  Intense Sinewave Stimulation (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001271/draft
+  Intense Sinewave Stimulation (Version 0.250701.1624) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001271/0.250701.1624
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -63,13 +64,14 @@ description: "This dataset explores whether blocking sodium channels with tetrod
   Applying 1 µM TTX suppressed action potentials, as expected, and completely prevented
   sustained depolarization. This study was partially supported by the NIH Brain Initiative
   (NEI R21EY034803).\n\n"
+doi: 10.48324/dandi.001271/0.250701.1624
 ethicsApproval: []
-id: DANDI:001271/draft
+id: DANDI:001271/0.250701.1624
 identifier: DANDI:001271
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001271/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001271/0.250701.1624/assets.yaml
 name: Tetrodotoxin Blockade of Sodium Channels Abolishes Action Potential Formation
   During Intense Sinewave Stimulation
 publishedBy:
@@ -95,8 +97,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001271/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001271/0.250701.1624
+version: 0.250701.1624
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
