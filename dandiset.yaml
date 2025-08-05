@@ -56,8 +56,13 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: 1R21EY034258
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-12-04T14:34:50.556074+00:00'
-datePublished: '2025-07-01T16:24:57.039956+00:00'
+datePublished: '2025-08-05T13:52:30.869747+00:00'
 description: "This dataset explores whether blocking sodium channels with tetrodotoxin
   (TTX) can prevent action potential formation during intense sinewave stimulation.
   Applying 1 µM TTX suppressed action potentials, as expected, and completely prevented
@@ -73,13 +78,13 @@ manifestLocation:
 name: Tetrodotoxin Blockade of Sodium Channels Abolishes Action Potential Formation
   During Intense Sinewave Stimulation
 publishedBy:
-  endDate: '2025-07-01T16:24:57.039956+00:00'
-  id: urn:uuid:374f26b7-28ad-4301-8897-5180a4315cdc
+  endDate: '2025-08-05T13:52:30.869747+00:00'
+  id: urn:uuid:d9d90864-5261-4af0-b343-a50538caba57
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-01T16:24:57.039956+00:00'
+  startDate: '2025-08-05T13:52:30.869747+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:cce03e2a-f08e-43a1-9e94-783a01f27d64
+  - id: urn:uuid:433f16d8-4202-485a-a119-27488e87715a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -100,4 +105,7 @@ version: draft
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  schemaKey: Project
+- identifier: 1R21EY034258
+  name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
   schemaKey: Project
